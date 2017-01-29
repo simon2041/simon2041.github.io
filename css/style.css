@@ -15,7 +15,7 @@ body {
     width: 100%;
     min-width: 800px;
     z-index: 100;
-    max-height: 50%;
+    height: 42%;
     background:
         linear-gradient(230deg, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.8)),
         url("../img/background.png");
@@ -28,6 +28,9 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     height: 100%;
+
+    overflow: auto;
+    background-color: green;
 }
 
 #title {
@@ -60,16 +63,18 @@ header h1, h2 {
 }
 
 #contentHeader {
+    display: inline-block;
     float: left;
     border: 0px;
-    max-height: 45%;
     min-width: 700px;
-    padding-top: auto;
-    margin-bottom: 2em;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color:blue;
+
+    /*background-color: rgba(255, 255, 255, 0.2);*/
 }
 
 #idBullets {
+    
+    box-sizing: border-box;
     float: left;
     border: 0px;
     width: 20%;
@@ -117,11 +122,14 @@ header h1, h2 {
 }
 
 #introduction {
+    display: inline-block;
+    box-sizing: border-box;
     padding-top: 5%;
     padding-left: 3em;
-    width: 60%;
+    width: 80%;
     height: 100%;
     float: left;
+    background-color:grey;
 }
 
 #introduction h1{
