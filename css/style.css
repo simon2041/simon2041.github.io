@@ -42,7 +42,7 @@ body {
 #title h1{
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 1.8vw;
+    font-size: 1.7em;
     font-weight: 100;
     color: white;
     margin-bottom: -0.3em;
@@ -51,7 +51,7 @@ body {
 #title h2{
     letter-spacing: 7.5px;
     text-transform: uppercase;
-    font-size: 0.9vw;
+    font-size: 0.8em;
     font-weight: 150;
     color: white;
 }
@@ -163,7 +163,7 @@ header h1, h2 {
     width: 100%;
     font-family: socicon;
     font-size: 1.7vw;
-    margin-top: 0.9vw;
+    margin-top: 1vw;
     display: table;
     width: 40%;
     margin-left: 28%;
@@ -206,10 +206,6 @@ header h1, h2 {
     border-radius: 50%;
 }
 
-#content {
-    background-color: red;
-}
-
 #content h1{
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -227,8 +223,9 @@ header h1, h2 {
 
 
 #aboutMe {
+    margin-top: 20px;
     padding-left: 80px;
-    padding-right: 50px;
+    padding-right: 40px;
     box-sizing: border-box;
     width: 50%;
     height: 300px;
@@ -241,11 +238,12 @@ header h1, h2 {
 }
 
 #skills {
+    margin-top: 20px;
     box-sizing: border-box;
     width: 50%;
     height: 300px;
     float: left;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-right: 80px;
 }
 
