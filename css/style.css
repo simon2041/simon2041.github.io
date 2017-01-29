@@ -82,20 +82,6 @@ header h1, h2 {
     padding-bottom: 0.7em;
 }
 
-#idBullets h1{
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: 100;
-    color: white;
-}
-
-#idBullets h2{
-    letter-spacing: 3px;
-    font-size: 0.7em;
-    font-weight: 100;
-    color: white;
-}
 
 #idBullets img {
     max-width:100%;
@@ -116,7 +102,7 @@ header h1, h2 {
     font-size: 0.8vw;;
     font-weight: 100;
     color: white;
-    line-height: 3em;
+    line-height: 2vw;
 }
 
 #introduction {
