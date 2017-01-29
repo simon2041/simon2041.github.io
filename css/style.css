@@ -113,17 +113,17 @@ header h1, h2 {
 }
 
 #introduction h1{
-    letter-spacing: 5px;
+    letter-spacing: 0.2vw;
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 1.5vw;
     font-weight: 100;
     color: white;
 
 }
 
 #introduction h2{
-    letter-spacing: 3px;
-    font-size: 0.8em;
+    letter-spacing: 0.2vw;
+    font-size: 0.9vw;
     font-weight: 100;
     color: white;
     font-style:italic;
@@ -160,7 +160,7 @@ header h1, h2 {
 
 .social {
     font-family: socicon;
-    font-size: 1.0em;
+    font-size: 1.4em;
     margin-top: 1.7em;
     margin-bottom: 1.7em;
     display: table;
@@ -201,7 +201,7 @@ header h1, h2 {
     height: 2em;
     display: block;
     position: absolute;
-    top: -5px; left: -9px;
+    top: -8px; left: -12px;
     border: 1.5px solid rgba(120, 120, 120, 1);
     border-radius: 50%;
 }
