@@ -163,8 +163,8 @@ header h1, h2 {
 .social {
     width: 100%;
     font-family: socicon;
-    font-size: 2em;
-    margin-top: 1.2em;
+    font-size: 1.5em;
+    margin-top: 0.6em;
     display: table;
     width: 40%;
     margin-left: 28%;
@@ -198,8 +198,8 @@ header h1, h2 {
 
 .social a:after {
     content: " ";
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: block;
     position: absolute;
     top: -6px; left: -15px;
@@ -209,7 +209,6 @@ header h1, h2 {
 
 #content {
     background-color: red;
-    margin-top: 680px;
 }
 
 #content h1{
