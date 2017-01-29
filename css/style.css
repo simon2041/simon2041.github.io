@@ -183,7 +183,7 @@ header h1, h2 {
 .social a {
     position: relative;
     text-decoration: none;
-    color: rgba(30, 30, 30,1);
+    color: rgba(120, 120, 120, 1);
     display: inline-block;
     background: #fff;
     border-radius: 50%;
@@ -201,7 +201,7 @@ header h1, h2 {
     display: block;
     position: absolute;
     top: -9px; left: -14px;
-    border: 1.5px solid rgba(30, 30, 30,1);
+    border: 1.5px solid rgba(120, 120, 120, 1);
     border-radius: 50%;
 }
 
