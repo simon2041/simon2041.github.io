@@ -88,7 +88,7 @@ header h1, h2 {
 
 #contactMe{
     box-sizing: border-box;
-    margin-top: 0.3em;
+    margin-top: 0.2vw;
     max-width:100%;
     text-align: center;
     background-color: rgba(255, 152, 0,1);
@@ -162,8 +162,8 @@ header h1, h2 {
 .social {
     width: 100%;
     font-family: socicon;
-    font-size: 1.5em;
-    margin-top: 0.6em;
+    font-size: 1.7vw;
+    margin-top: 0.9vw;
     display: table;
     width: 40%;
     margin-left: 28%;
@@ -197,8 +197,8 @@ header h1, h2 {
 
 .social a:after {
     content: " ";
-    width: 50px;
-    height: 50px;
+    width: 58px;
+    height: 58px;
     display: block;
     position: absolute;
     top: -6px; left: -15px;
