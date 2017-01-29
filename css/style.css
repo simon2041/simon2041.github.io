@@ -1,0 +1,298 @@
+body {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    min-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#header {
+    position: fixed; top: 0px; right: 0; left: 0; margin: 0 auto;
+    border: 0px;
+    width: 100%;
+    min-width: 800px;
+    z-index: 100;
+    background:
+        linear-gradient(230deg, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.8)),
+        url("../img/background.png");
+        background-size: 100% auto;
+
+}
+
+#innerHeader {
+    border: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+}
+
+#title {
+    border: 0px;
+    height: 15%;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+#title h1{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    margin-bottom: -0.3em;
+}
+
+#title h2{
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 150;
+    color: white;
+}
+
+header h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#contentHeader {
+    float: left;
+    border: 0px;
+    height: 365px;
+    min-width: 700px;
+    padding-top: auto;
+    margin-bottom: 2em;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#idBullets {
+    float: left;
+    border: 0px;
+    width: 17%;
+    min-width: 200px;
+    padding-top: 0.7em;
+    padding-left: 0.7em;
+    padding-bottom: 1em;
+}
+
+#idBullets h1{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 100;
+    color: white;
+}
+
+#idBullets h2{
+    letter-spacing: 3px;
+    font-size: 0.7em;
+    font-weight: 100;
+    color: white;
+}
+
+#idBullets img {
+    height: 300px;
+    width: auto; 
+}
+
+#contactMe{
+    margin-top: 0.3em;
+    width: 215px;
+    text-align: center;
+    background-color: rgba(255, 152, 0,1);
+}
+
+#contactMe a{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: white;
+    line-height: 3em;
+}
+
+#introduction {
+    padding-top: 5%;
+    padding-left: 3em;
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+#introduction h1{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: white;
+
+}
+
+#introduction h2{
+    letter-spacing: 3px;
+    font-size: 1em;
+    font-weight: 100;
+    color: white;
+    font-style:italic;
+}
+
+#links{
+    width: 100%;
+    min-width: 800px;
+    margin-top: 530px;
+    float:left;
+    position: fixed;
+    background-color: white;
+}
+
+#links hr{
+    width: 30%;
+    margin-left: 35%;
+}
+
+@font-face {
+    font-family: "socicon";
+    src: url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.eot");
+    src: url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.eot?#iefix") format("embedded-opentype"),
+         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.woff") format("woff"),
+         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.ttf") format("truetype"),
+         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.svg#1474843172") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+.socicon-twitter:before { content: "\e040";}
+.socicon-stackoverflow:before { content: "\e007"; }
+.socicon-github:before { content: "\e030"; }
+.socicon-xing:before { content: "\e04b"; }
+.socicon-linkedin:before { content: "\e049"; }
+.socicon-medium:before { content: "\e06d"; }
+.socicon-mail:before { content: "\e01f"; }
+
+.social {
+    width: 100%;
+    font-family: socicon;
+    font-size: 2em;
+    margin-top: 1.2em;
+    display: table;
+    width: 40%;
+    margin-left: 28%;
+    list-style: none;
+}
+
+.social li {
+    display: inline-block;
+    display: table-cell;
+    text-align: center;
+}
+
+
+.selected {
+    color: rgb(50,92,128);
+}
+
+.social a {
+    position: relative;
+    text-decoration: none;
+    color: rgba(30, 30, 30,1);
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+
+}
+
+.social a:hover {
+    color: rgba(255, 152, 0,1);
+}
+
+.social a:after {
+    content: " ";
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    top: -6px; left: -15px;
+    border: 1.5px solid rgba(30, 30, 30,1);
+    border-radius: 50%;
+}
+
+#content {
+    background-color: red;
+    margin-top: 680px;
+}
+
+#content h1{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: rgba(30, 30, 30,1);
+}
+
+#content p{
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    font-weight: 100;
+    color: rgba(30, 30, 30,1);
+}
+
+
+#aboutMe {
+    padding-left: 80px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 300px;
+    float: left;
+    text-align: justify;
+}
+
+#aboutMe h1{
+    text-align: right;
+}
+
+#skills {
+    box-sizing: border-box;
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+#skills b {
+    margin-bottom: 25px;
+}
+
+#skills h3 {
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    font-weight: 100;
+    color: rgba(30, 30, 30,1);
+    font-weight: bold;
+}
+
+progress {
+   background-color: white;
+   width: 100%;
+}
+
+progress::-webkit-progress-bar {
+    border: 0;
+    height: 5px;
+    border-radius: 9px;
+    background-color: rgba(240,240,240,1);
+  /* style rules */
+}
+progress::-webkit-progress-value {
+    border: 0;
+    height: 5px;
+    border-radius: 9px;
+    background-color: rgba(255, 152, 0,1);
+  /* style rules */
+}
+
+
+
