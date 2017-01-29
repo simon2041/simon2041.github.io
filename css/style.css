@@ -10,15 +10,10 @@ body {
 }
 
 #sourrunder{
-    position: absolute;
     box-sizing: border-box;
-    display: inline-block;
 }
 
 #header {
-    display:block;
-    position: relative;
-    min-height: 410px;
     border: 0px;
     width: 100%;
     min-width: 800px;
@@ -30,20 +25,18 @@ body {
 }
 
 #innerHeader {
-    position: relative;
-    display: block;
+    display: inline-block;
+    box-sizing: border-box;
     margin-left: 10%;
     margin-right: 10%;
-    height: 100%;
 }
 
 #title {
     box-sizing: border-box;
     display: inline-block;
     vertical-align:middle;
-    height: 20%;
-    min-height: 100px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 #title h1{
