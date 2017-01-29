@@ -62,7 +62,6 @@ header h1, h2 {
 #contentHeader {
     float: left;
     border: 0px;
-    height: 365px;
     max-height: 45%;
     min-width: 700px;
     padding-top: auto;
@@ -73,11 +72,11 @@ header h1, h2 {
 #idBullets {
     float: left;
     border: 0px;
-    width: 17%;
-    min-width: 200px;
+    width: 20%;
     padding-top: 0.7em;
     padding-left: 0.7em;
     padding-bottom: 1em;
+    background-color: red;
 }
 
 #idBullets h1{
@@ -96,13 +95,14 @@ header h1, h2 {
 }
 
 #idBullets img {
-    height: 300px;
-    width: auto; 
+    /*height: 300px;*/
+    max-width:100%;
+    max-height:100%;
 }
 
 #contactMe{
     margin-top: 0.3em;
-    width: 215px;
+    max-width:100%;
     text-align: center;
     background-color: rgba(255, 152, 0,1);
 }
