@@ -15,8 +15,8 @@ body {
     width: 100%;
     min-width: 800px;
     z-index: 100;
-    min-height: 40%;
-
+    min-height: 140px;
+    padding-bottom: 20px;
     background:
         linear-gradient(230deg, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.8)),
         url("../img/background.png");
@@ -24,13 +24,11 @@ body {
 }
 
 #innerHeader {
-    position: absolute;
-    display: inline-block;
-    box-sizing: border-box;
+    position: relative;
+    display: block;
     margin-left: 10%;
     margin-right: 10%;
     height: 100%;
-    background-color:green;
 }
 
 #title {
@@ -69,10 +67,8 @@ header h1, h2 {
     box-sizing: border-box;
     float: left;
     min-width: 700px;
-    max-height:80%;   
-    background-color:blue;
 
-    /*background-color: rgba(255, 255, 255, 0.2);*/
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #idBullets {
@@ -83,8 +79,7 @@ header h1, h2 {
     width: 12%;
     padding-top: 0.7em;
     padding-left: 0.7em;
-    padding-bottom: 1em;
-    background-color: red;
+    padding-bottom: 0.7em;
 }
 
 #idBullets h1{
@@ -131,7 +126,6 @@ header h1, h2 {
     padding-left: 3em;
     padding-right: 3em;
     width: 85%;
-    height: 100%;
     float: left;
 }
 
