@@ -9,13 +9,19 @@ body {
     line-height: 1.5;
 }
 
+#sourrunder{
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
 #header {
-    position: fixed; top: 0px; right: 0; left: 0; margin: 0 auto;
+    display:block;
+    position: relative;
+    min-height: 410px;
     border: 0px;
     width: 100%;
     min-width: 800px;
-    z-index: 100;
-    min-height: 140px;
     padding-bottom: 20px;
     background:
         linear-gradient(230deg, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.8)),
@@ -135,10 +141,7 @@ header h1, h2 {
 #links{
     width: 100%;
     min-width: 800px;
-    margin-top: 530px;
     float:left;
-    position: fixed;
-    background-color: white;
 }
 
 #links hr{
