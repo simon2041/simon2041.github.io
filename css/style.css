@@ -16,6 +16,7 @@ body {
     min-width: 800px;
     z-index: 100;
     min-height: 45%;
+    
     background:
         linear-gradient(230deg, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.8)),
         url("../img/background.png");
