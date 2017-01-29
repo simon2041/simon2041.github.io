@@ -71,14 +71,13 @@ header h1, h2 {
 }
 
 #idBullets {
-
     box-sizing: border-box;
     float: left;
     border: 0px;
     width: 12%;
-    padding-top: 0.7em;
-    padding-left: 0.7em;
-    padding-bottom: 0.7em;
+    padding-top: 0.5vw;
+    padding-left: 0.5vw;
+    padding-bottom: 0.5vw;
 }
 
 
@@ -108,8 +107,8 @@ header h1, h2 {
     display: inline-block;
     box-sizing: border-box;
     padding-top: 5%;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 2vw;
+    padding-right: 2vw;
     width: 85%;
     float: left;
 }
