@@ -36,8 +36,8 @@ body {
 #title {
     border: 0px;
     height: 15%;
-    padding-bottom: 2em;
-    padding-top: 1em;
+    min-height: 70px;
+    padding-bottom: 1%;
 }
 
 #title h1{
@@ -73,7 +73,7 @@ header h1, h2 {
 }
 
 #idBullets {
-    
+
     box-sizing: border-box;
     float: left;
     border: 0px;
