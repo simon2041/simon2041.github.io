@@ -41,7 +41,7 @@ body {
 #title h1{
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 28pt;
+    font-size: 30px;
     font-weight: 100;
     color: white;
     margin-bottom: -0.3em;
@@ -50,7 +50,7 @@ body {
 #title h2{
     letter-spacing: 7.5px;
     text-transform: uppercase;
-    font-size: 13pt;
+    font-size: 14.5px;
     font-weight: 150;
     color: white;
 }
