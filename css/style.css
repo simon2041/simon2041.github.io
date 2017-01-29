@@ -201,7 +201,7 @@ header h1, h2 {
     height: 2em;
     display: block;
     position: absolute;
-    top: -5px; left: -10px;
+    top: -5px; left: -9px;
     border: 1.5px solid rgba(120, 120, 120, 1);
     border-radius: 50%;
 }
