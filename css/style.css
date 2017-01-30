@@ -100,7 +100,13 @@ header h1, h2 {
     font-weight: 100;
     color: white;
     line-height: 2vw;
+    text-decoration: none;
 }
+
+#contactMe a:hover{
+    font-weight: bold;
+}
+
 
 #introduction {
     box-sizing: border-box;
