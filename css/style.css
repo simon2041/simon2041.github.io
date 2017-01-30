@@ -104,7 +104,7 @@ header h1, h2 {
 }
 
 #contactMe a:hover{
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 
