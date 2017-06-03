@@ -9,26 +9,24 @@ body {
     line-height: 1.5;
 }
 
-#sourrunder{
-    box-sizing: border-box;
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
-#header {
+#background {
+    position: absolute;
+    top:0px; right:0px; bottom:0px; left:0px; z-index:-1;
     border: 0px;
     width: 100%;
-    min-width: 800px;
-    padding-bottom: 20px;
-    text-align: center;
+    height: 100%;
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
     background:
-        linear-gradient(230deg, rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.8)),
+        linear-gradient(230deg, rgba(80, 80, 80, 0.15), rgba(80,80,80, 0.15)),
         url("../img/background.jpg");
-        background-size: 100% auto;
-}
-
-#innerHeader {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 86%;
+        background-size: cover;
 }
 
 #title {
@@ -38,257 +36,139 @@ body {
     text-align: left;
     padding-bottom: 20px;
     width: 100%;
+    margin-left: 20px;
 }
 
 #title h1{
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 1.86em;
+    font-size: 2em;
     font-weight: 100;
-    color: white;
-    margin-bottom: -0.3em;
+    color: black;
+    margin-bottom: -0.6em;
 }
 
 #title h2{
     letter-spacing: 7.5px;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 150;
-    color: white;
+    color: black;
 }
 
-header h1, h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#contentHeader {
-    box-sizing: border-box;
-    float: left;
-    min-width: 700px;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-#idBullets {
-    box-sizing: border-box;
-    float: left;
-    border: 0px;
-    width: 12%;
-    padding-top: 0.5vw;
-    padding-left: 0.5vw;
-    padding-bottom: 0.5vw;
-}
-
-
-#idBullets img {
-    max-width:100%;
-    max-height:100%;
-}
-
-#contactMe{
-    box-sizing: border-box;
-    margin-top: 0.2vw;
-    max-width:100%;
-    text-align: center;
-    background-color: rgba(255, 152, 0,1);
-}
-
-#contactMe a{
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: 0.8vw;;
-    font-weight: 100;
-    color: white;
-    line-height: 2vw;
-    text-decoration: none;
-}
-
-#contactMe a:hover{
-    text-decoration: underline;
-}
-
-
-#introduction {
-    box-sizing: border-box;
-    text-align: left;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    width: 85%;
-    float: left;
-    margin-top: 2%;
-}
-
-#introduction h1{
-    letter-spacing: 0.2vw;
-    text-transform: uppercase;
-    font-size: 1.5vw;
-    font-weight: 100;
-    color: white;
-    margin-bottom: -0.1em;
-
-}
-
-#introduction h2{
-    letter-spacing: 0.2vw;
-    font-size: 0.9vw;
-    font-weight: 100;
-    color: white;
-    font-style:italic;
-}
-
-#links{
+#avatar{
     width: 100%;
-    min-width: 800px;
+    position:absolute;
+    top: 45%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-circle {
+    border:3px solid white;
+    border-radius: 60%;
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+
+#links {
+    position: absolute;
+    width: 100%;
+    top: 70%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#linkImgs{
+    width: 285px;
+    position:relative; 
+    display:block;
+    margin:auto;
+}
+
+#linkImgs img:hover {
+    -webkit-filter: brightness(70%); filter: brightness(70%);
+}
+
+#links .icon{ 
+    width: 45px;
+    height: 45px;
     float:left;
 }
 
-#links hr{
-    width: 26%;
-    margin-left: 37%;
+.spacer{
+    width: 35px;
+    min-width: 35px;
+    display:block;
+    float: left;
+    height: 30px;
 }
 
-@font-face {
-    font-family: "socicon";
-    src: url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.eot");
-    src: url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.eot?#iefix") format("embedded-opentype"),
-         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.woff") format("woff"),
-         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.ttf") format("truetype"),
-         url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1474843172.svg#1474843172") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-.socicon-twitter:before { content: "\e040";}
-.socicon-stackoverflow:before { content: "\e007"; }
-.socicon-github:before { content: "\e030"; }
-.socicon-xing:before { content: "\e04b"; }
-.socicon-linkedin:before { content: "\e049"; }
-.socicon-medium:before { content: "\e06d"; }
-.socicon-mail:before { content: "\e01f"; }
 
-.social {
-    font-family: socicon;
-    font-size: 1.4em;
-    margin-top: 1.7em;
-    margin-bottom: 1.5em;
-    display: table;
-    table-layout: fixed;
-    width: 40%;
-    margin-left: 30%;
-    list-style: none;
-    padding-left: 0;
-}
-
-.social li {
-    display: table-cell;
+#impressum_activator{
+    position: absolute;
+    width: 100%;
+    top: 96%; left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
 }
 
-
-.selected {
-    color: rgb(50,92,128);
-}
-
-.social a {
-    position: relative;
+#impressum_activator a{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-weight: 100;
+    color: white;
+    margin-bottom: -0.3em;
     text-decoration: none;
-    color: rgba(120, 120, 120, 1);
-    display: inline-block;
-    background: #fff;
-    border-radius: 50%;
-
 }
 
-.social a:hover {
-    color: rgba(255, 152, 0,1);
+.hide{
+    display: none;
 }
-
-.social a:after {
-    content: " ";
-    width: 2em;
-    height: 2em;
+.block{
     display: block;
-    position: absolute;
-    top: -8px; left: -12px;
-    border: 1.5px solid rgba(120, 120, 120, 1);
-    border-radius: 50%;
 }
 
+#impressum_background{
+    display:none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.6;
 
-#content h1{
+}
+#impressum{
+    padding: 25px;
+    display:none;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    width: 85%;
+    background-color: white;
+    right: 4%;
+    bottom: 10px;
+    overflow:scroll;
+}
+
+#impressum h1{
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 2em;
     font-weight: 100;
-    color: rgba(30, 30, 30,1);
+    color: black;
 }
 
-#content p{
-    letter-spacing: 1px;
-    font-size: 0.8em;
-    font-weight: 100;
-    color: rgba(30, 30, 30,1);
-}
-
-
-#aboutMe {
-    display:table;
-    margin-top: 20px;
-    padding-left: 7%;
-    padding-right: 30px;
-    box-sizing: border-box;
-    width: 50%;
-    height: 300px;
-    float: left;
-    text-align: justify;
-    padding-bottom: 50px;
-}
-
-#aboutMe h1{
-    text-align: right;
-}
-
-#skills {
-    display:table;
-    margin-top: 20px;
-    box-sizing: border-box;
-    width: 50%;
-    height: 300px;
-    float: left;
-    padding-left: 30px;
-    padding-right: 7%;
-}
-
-#skills b {
-    margin-bottom: 25px;
-}
-
-#skills h3 {
-    letter-spacing: 1px;
+#impressum p{
     font-size: 0.7em;
-    font-weight: 100;
-    color: rgba(30, 30, 30,1);
-    font-weight: bold;
+    color: black;
 }
 
-progress {
-   background-color: white;
-   width: 100%;
+#impressum input{
+    position:relative; 
+    left: 45%; 
+    width: 100px; 
+    height: 30px;
 }
-
-progress::-webkit-progress-bar {
-    border: 0;
-    height: 5px;
-    border-radius: 9px;
-    background-color: rgba(240,240,240,1);
-  /* style rules */
-}
-progress::-webkit-progress-value {
-    border: 0;
-    height: 5px;
-    border-radius: 9px;
-    background-color: rgba(255, 152, 0,1);
-  /* style rules */
-}
-
-
-
